@@ -1,9 +1,9 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
+  content: ['./sinks_login_page/*{html,js}'],
   theme: {
-    extend: {
-      // ...
-    },
+    extend: {},
   },
   plugins: [],
 }
+
